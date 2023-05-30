@@ -1,7 +1,12 @@
 import React from "react";
+import TopBar from "./components/TopBar";
 
 function App() {
-  return <div className="text-red-500">Hello</div>;
+  return (
+    <div>
+      <TopBar />
+    </div>
+  );
 }
 
 export default App;
