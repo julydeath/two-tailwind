@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Activity from "./components/Activity";
 import Bookings from "./components/Bookings";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Activity />
       <Bookings />
       <Gallery />
+      <Footer />
     </div>
   );
 }
